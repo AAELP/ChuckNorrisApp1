@@ -1,0 +1,9 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChuckNorrisApp.Views.CharacterPage"
+             Title="Favorite Character">
+    <StackLayout>
+        <Image Source="Resources/Images/favorite_character.jpg" />
+        <Label Text="A mi, Paul Robalino, me gusta este personaje porque se me gusta mucho su ingenio y su capacidad avismal de analisis" />
+    </StackLayout>
+</ContentPage>
