@@ -9,8 +9,9 @@ using System.Windows.Input;
 using ChuckNorrisApp.Helpers;
 
 
-
-public class ChuckNorrisViewModel : BaseViewModel
+namespace ChuckNorrisApp.ViewModels
+{
+    public class ChuckNorrisViewModel : BaseViewModel
 {
     public ObservableCollection<ChuckNorrisJoke> Jokes { get; }
     public Command LoadJokesCommand { get; }
@@ -78,5 +79,6 @@ public class ChuckNorrisViewModel : BaseViewModel
         await _database.SaveJokeAsync(joke);
         // Refresh list or specific item if necessary
     }
+}
 }
 

@@ -1,4 +1,5 @@
-﻿namespace ChuckNorrisApp.Views
+﻿
+namespace ChuckNorrisApp.Views
 {
     public partial class MainPage : ContentPage
     {
